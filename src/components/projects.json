@@ -4,31 +4,20 @@
     "description": "This project is a dynamic web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) to create an online marketplace for second-hand books. It facilitates peer-to-peer trading of books while providing secure authentication, password hashing, file upload functionality, and robust validation processes.",
     "git": "https://github.com/AvtoTheThird/Book-Store",
     "link": "",
-    "images": [
-      "/src/fotos/book1.png",
-      "/src/fotos/book2.png",
-      "/src/fotos/book3.png",
-      "/src/fotos/book4.png"
-    ]
+    "images": ["book1.png", "book2.png", "book3.png", "book4.png"]
   },
   {
     "name": "Online Testing App",
     "description": "The Online Testing App simplifies test creation and administration. Users register/login, create custom testing rooms, share Room IDs with participants, and track results via a comprehensive dashboard. With features like user authentication, customizable rooms, intuitive test-taking, and results tracking, it's an essential tool for educational institutions and businesses alike.",
     "git": "https://github.com/AvtoTheThird/QUIZZ",
     "link": "https://stunning-kheer-7c8962.netlify.app/",
-    "images": [
-      "/src/fotos/1.png",
-
-      "/src/fotos/2.png",
-      "/src/fotos/3.png",
-      "/src/fotos/4.png"
-    ]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "name": "Portfolio for Graphic Designer",
     "description": "Simple portfolio website for digital designer. Built with HTML, CSS and JS. ",
     "git": "https://github.com/AvtoTheThird/lela.ge",
     "link": "https://teriyyaki.com/index.html",
-    "images": ["/src/fotos/l1.png", "/src/fotos/l2.png", "/src/fotos/l3.png"]
+    "images": ["l1.png", "l2.png", "l3.png"]
   }
 ]

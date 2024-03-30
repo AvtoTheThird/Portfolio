@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import foto from "../fotos/1.png";
+// import foto from "../fotos/1.png";
 
 function CarouselDApiDemo({ images }) {
   const [api, setApi] = React.useState();
@@ -37,7 +37,7 @@ function CarouselDApiDemo({ images }) {
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <img src={img} alt="" />
-
+                  {/* <img src={foto} alt="" /> */}
                   {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
                 </CardContent>
               </Card>

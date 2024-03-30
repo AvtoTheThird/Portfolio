@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselDApiDemo from "./CarouselM";
 import projectsData from "./projects.json";
-import foto from "../fotos/1.png";
+// import foto from "../fotos/1.png";
 import gitlogo from "../icons/git.png";
 import linklogo from "../icons/link.png";
 function Project(props) {
@@ -10,7 +10,7 @@ function Project(props) {
     <div className="w-[900px] h-[400px] flex justify-start items-center bg-gray-200 rounded-md overflow-hidden shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
       <div className="px-16 scale-150 ">
         <CarouselDApiDemo images={props.data?.images}>
-          <img src={foto} alt="" />
+          {/* <img src={foto} alt="" /> */}
         </CarouselDApiDemo>
       </div>
       <div className="text-top w-[450px] px-10 text-center">
