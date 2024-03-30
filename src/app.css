@@ -11,10 +11,11 @@ body {
   width: 90vw;
 }
 .bg-cover {
-  margin: 20vh auto;
-  height: 300px;
-  width: 300px;
-  background-image: url("https://vallybb.github.io/images/unavitadavanti.jpg");
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+  height: 320px;
+  width: 320px;
+  background-image: url("/me.jpg");
   -webkit-animation: liquid 7s ease-in-out infinite;
   animation: liquid 7s ease-in-out infinite;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

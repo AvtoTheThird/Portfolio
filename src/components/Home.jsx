@@ -9,12 +9,12 @@ import "../app.css";
 function Home() {
   return (
     <section className="flex flex-col items-center  lg:h-[75vh] justify-center ">
-      <div className="flex items-center justify-center  w-screen lg:w-[800px]">
+      <div className="block lg:flex items-center justify-center  w-screen lg:w-[800px]">
         <div>
-          <h2 className="text-6xl font-bold leading-snug py-2">
+          <h2 className="lg:text-left text-center text-6xl font-bold leading-snug py-2 text-gray-800">
             Front-End <span className="text-blue-500">React</span> Developer👋
           </h2>
-          <h3 className="text-gray-600 text-lg">
+          <h3 className="text-gray-600 text-lg lg:text-left text-center">
             Hi, im Avto, a pasionate front end developer based in Tbilisi,
             Georgia 📍
           </h3>
@@ -24,7 +24,7 @@ function Home() {
         </div>
       </div>
       <div className="flex justify-start  ">
-        <h2 className="flex gap-8 text-xl items-center text-md font-bold leading-snug mb-10 ">
+        <h2 className="flex flex-wrap gap-8 text-xl items-center text-md font-bold leading-snug mb-10 ">
           tech stack |
           <img width={"50px"} src={htmllogo} alt="" />
           <img width={"50px"} src={csslogo} alt="" />
