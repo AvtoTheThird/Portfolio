@@ -3,14 +3,8 @@ import HeaderComponent from "./components/HeaderComponent";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import projectsData from "./components/projects.json";
-
+import Contact from "./components/Contact";
 function App() {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   return (
     <>
       <HeaderComponent />
@@ -30,7 +24,15 @@ function App() {
         {projectsData.map((project, index) => (
           <Project key={index} data={project} />
         ))}
-        {/* <Project /> */}
+      </div>
+      <div
+        id="Contact"
+        className="flex flex-col justify-center  items-center px-16  bg-slate-100 py-20 "
+      >
+        <div class="flex justify-start lg:w-[900px]">
+          <span class=" text-blue-700 font-bold text-xl">Contact</span>
+        </div>
+        <Contact />
       </div>
     </>
   );

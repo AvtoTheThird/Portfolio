@@ -9,11 +9,12 @@ function HeaderComponent() {
         <Link to="Home" smooth={true} duration={500}>
           Home
         </Link>{" "}
-        <a href="">about</a>
         <Link to="Projects" smooth={true} duration={500}>
           Projects
         </Link>{" "}
-        <a href="">contact</a>
+        <Link to="Contact" smooth={true} duration={500}>
+          Contact
+        </Link>
       </div>
     </nav>
   );
