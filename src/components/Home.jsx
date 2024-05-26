@@ -24,14 +24,16 @@ function Home() {
         </div>
       </div>
       <div className="flex justify-start  ">
-        <h2 className="flex flex-wrap gap-8 text-xl items-center text-md font-bold leading-snug mb-10 ">
-          tech stack |
-          <img width={"50px"} src={htmllogo} alt="" />
-          <img width={"50px"} src={csslogo} alt="" />
-          <img width={"41px"} src={jslogo} alt="" />
-          <img width={"50px"} src={reactlogo} alt="" />
-          <img width={"50px"} src={tail} alt="" />
-          <img width={"50px"} src={nodelogo} alt="" />
+        <h2 className="flex lg:flex-row flex-col flex-wrap  gap-8 text-xl items-center text-md font-bold leading-snug mb-10 ">
+          tech stack
+          <div className="flex">
+            <img width={"50px"} src={htmllogo} alt="" />
+            <img width={"50px"} src={csslogo} alt="" />
+            <img width={"41px"} src={jslogo} alt="" />
+            <img width={"50px"} src={reactlogo} alt="" />
+            <img width={"50px"} src={tail} alt="" />
+            <img width={"50px"} src={nodelogo} alt="" />
+          </div>
         </h2>
       </div>
     </section>

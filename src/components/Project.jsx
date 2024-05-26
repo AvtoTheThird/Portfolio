@@ -7,13 +7,11 @@ import linklogo from "../icons/link.png";
 function Project(props) {
   //   console.log(props.data?.images);
   return (
-    <div className="lg:w-[900px] lg:h-[400px] block lg:flex justify-start items-center text-gray-900 bg-gray-300 rounded-md overflow-hidden shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-      <div className="px-16 scale-150 ">
-        <CarouselDApiDemo images={props.data?.images}>
-          {/* <img src={foto} alt="" /> */}
-        </CarouselDApiDemo>
+    <div className="overflow-hidden lg:w-[900px] lg:h-[400px] w-auto block lg:flex justify-start items-center text-gray-900 bg-gray-300 rounded-md  shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+      <div className=" px-16 scale-150  ">
+        <CarouselDApiDemo images={props.data?.images}></CarouselDApiDemo>
       </div>
-      <div className="text-top w-[450px] px-10 text-center">
+      <div className="text-top lg:w-[450px] w-[350px] lg:px-10 text-center ">
         <h2 className="font-bold text-4xl">{props.data?.name}</h2>
         <h3>{props.data?.description}</h3>
         <div className="flex justify-center items-center gap-8">
