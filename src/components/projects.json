@@ -6,6 +6,14 @@
     "link": "https://xoncha.shop",
     "images": ["x1.png", "x2.png", "x3.png"]
   },
+
+  {
+    "name": "Online Multiplayer PaintingGame ",
+    "description": "Mobile optimised full-stack real-time multiplayer game where users can create rooms or join existing ones to compete with friends by drawing and guessing what's being sketched. The application is built using React for the frontend and Node.js with Express for the backend, with Socket.io handling real-time data transmission. Players take turns drawing while others guess, creating a fun and competitive environment with seamless, real-time interaction.",
+    "git": "https://github.com/AvtoTheThird/Paint-Game",
+    "link": "https://firosmoney.netlify.app",
+    "images": ["f1.png", "f2.png", "f3.png"]
+  },
   {
     "name": "Second Hand Book Online Market",
     "description": "This project is a dynamic web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) to create an online marketplace for second-hand books. It facilitates peer-to-peer trading of books while providing secure authentication, password hashing, file upload functionality, and robust validation processes.",
